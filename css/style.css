@@ -1,5 +1,6 @@
-
-
+* {
+    margin: 0;
+}
 
 #wrapper {
     width: 100vw;
@@ -15,6 +16,33 @@
     ;
 }
 
+h1 {
+    font-style: italic;
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.position_absolute {
+    position: absolute;
+}
+
+#en_gas {
+    top: 20px;
+    left: 50px;
+}
+
+#flera_gasar {
+    top: 65px;
+    left: 50px
+}
+
+#logga {
+    width: 110px;
+    height: 110px;
+    top: 20px;
+    right: 50px;
+}
+
 header {
     grid-area: he;
     background-color: aqua;
@@ -23,6 +51,23 @@ header {
 nav {
     grid-area: na;
     background-color: brown;
+}
+
+ul {
+    height: 100%;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav_links {
+    text-decoration: none;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    border: 4px solid black;
+    padding: 3px;
 }
 
 main {
@@ -38,26 +83,31 @@ footer {
 article {
     width: 200px;
     height: 200px;
+    margin: 50px;
 }
 
 #a1 {
     background-color: orchid;
-    margin-left: 300px;
+    top: 650px;
+    left: 350px;
 }
 
 #a2 {
     background-color: royalblue;
-    margin-left: 300px;
+    top: 900px;
+    left: 350px;
 }
 
 #a3 {
     background-color: darkgreen;
-    margin-right: 300px;
+    top: 650px;
+    left: 600px;
 }
 
 #a4 {
     background-color: grey;
-    margin-right: 300px;
+    top: 900px;
+    left: 600px;
 }
 
 section {
@@ -65,14 +115,16 @@ section {
     height: 100%;
     grid-area: se;
     background-color: pink;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    align-items: center;
 }
 
-
+.tillbaka {
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
 
 
 
