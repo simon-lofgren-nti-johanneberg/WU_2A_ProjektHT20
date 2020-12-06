@@ -1,4 +1,9 @@
 img {
-    width: 500px;
+    width: auto;
     height: 500px;
+}
+
+h4 {
+    font-style: italic;
+    text-decoration: underline;
 }

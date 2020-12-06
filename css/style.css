@@ -75,9 +75,41 @@ main {
     background-color: chartreuse;
 }
 
+.valkommen_till {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: absolute;
+}
+
+#valkommen_till_forsta_del {
+    top: 370px;
+    left: 20px;
+}
+
+#valkommen_till_andra_del {
+    top: 400px;
+    left: 20px;
+}
+
+#las_mer {
+    position: absolute;
+    top: 402px;
+    left: 480px;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
 footer {
+    width: 100%;
+    height: 100%;
     grid-area: fo;
     background-color: aquamarine;
+    display: flex;
+    justify-content: space-around;
 }
 
 article {
@@ -87,25 +119,21 @@ article {
 }
 
 #a1 {
-    background-color: orchid;
     top: 650px;
     left: 350px;
 }
 
 #a2 {
-    background-color: royalblue;
     top: 900px;
     left: 350px;
 }
 
 #a3 {
-    background-color: darkgreen;
     top: 650px;
     left: 600px;
 }
 
 #a4 {
-    background-color: grey;
     top: 900px;
     left: 600px;
 }
@@ -126,8 +154,56 @@ section {
     left: 10px;
 }
 
+.bilder_till_artiklarna {
+    width: 200px;
+    height: 200px;
+}
 
+.text_inside_image {
+    position: absolute;
+    top: 2px;
+    right: 20px;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 17px;
+}
 
+#medarbetare {
+    position: absolute;
+    top: 1500px;
+    left: 100px;
+}
 
+#karta  {
+    position: absolute;
+    top: 2500px;
+    left: 100px
+}
 
+#pasta_carbonara_text {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 17px;
+}
 
+#dagens_maltid {
+    text-decoration: underline;
+}
+
+#oppettider_kontakt {
+    text-decoration: underline;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#oppettider_och_kontakt_list {
+    display: block;
+    margin-top: 20px;
+}
+
+.info {
+    font-size: 18px;
+}
