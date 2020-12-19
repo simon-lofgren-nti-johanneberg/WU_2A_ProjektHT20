@@ -1,209 +1,211 @@
-* {
-    margin: 0;
-}
-
-#wrapper {
-    width: 100vw;
-    height: 100vh;
-    display: grid;
-    grid-template-rows: 150px 200px 300px 550px 200px;
-    grid-template-areas: 
-    "he"
-    "na"
-    "ma"
-    "se"
-    "fo"
-    ;
-}
-
-h1 {
-    font-style: italic;
-    font-size: 40px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
-
-.position_absolute {
-    position: absolute;
-}
-
-#en_gas {
-    top: 20px;
-    left: 50px;
-}
-
-#flera_gasar {
-    top: 65px;
-    left: 50px
-}
-
-#logga {
-    width: 110px;
-    height: 110px;
-    top: 20px;
-    right: 50px;
-}
-
-header {
-    grid-area: he;
-    background-color: aqua;
-}
-
-nav {
-    grid-area: na;
-    background-color: brown;
-}
-
-ul {
-    height: 100%;
-    display: flex;
-    list-style-type: none;
-    justify-content: space-evenly;
-    align-items: center;
-}
-
-.nav_links {
-    text-decoration: none;
-    font-size: 30px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: black;
-    border: 4px solid black;
-    padding: 3px;
-}
-
-main {
-    grid-area: ma;
-    background-color: chartreuse;
-}
-
-.valkommen_till {
-    font-size: 25px;
-    font-weight: bold;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    position: absolute;
-}
-
-#valkommen_till_forsta_del {
-    top: 370px;
-    left: 20px;
-}
-
-#valkommen_till_andra_del {
-    top: 400px;
-    left: 20px;
-}
-
-#las_mer {
-    position: absolute;
-    top: 402px;
-    left: 480px;
-    text-decoration: none;
-    font-size: 20px;
-    color: black;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-style: italic;
-}
-
-footer {
-    width: 100%;
-    height: 100%;
-    grid-area: fo;
-    background-color: aquamarine;
-    display: flex;
-    justify-content: space-around;
-}
-
-article {
-    width: 200px;
-    height: 200px;
-    margin: 50px;
-}
-
-#a1 {
-    top: 650px;
-    left: 350px;
-}
-
-#a2 {
-    top: 900px;
-    left: 350px;
-}
-
-#a3 {
-    top: 650px;
-    left: 600px;
-}
-
-#a4 {
-    top: 900px;
-    left: 600px;
-}
-
-section {
-    width: 100%;
-    height: 100%;
-    grid-area: se;
-    background-color: pink;
-}
-
-.tillbaka {
-    text-decoration: none;
-    font-size: 20px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    position: absolute;
-    top: 10px;
-    left: 10px;
-}
-
-.bilder_till_artiklarna {
-    width: 200px;
-    height: 200px;
-}
-
-.text_inside_image {
-    position: absolute;
-    top: 2px;
-    right: 20px;
-    color: whitesmoke;
-    font-weight: bold;
-    font-size: 17px;
-}
-
-#medarbetare {
-    position: absolute;
-    top: 1500px;
-    left: 100px;
-}
-
-#karta  {
-    position: absolute;
-    top: 2500px;
-    left: 100px
-}
-
-#pasta_carbonara_text {
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    color: whitesmoke;
-    font-weight: bold;
-    font-size: 17px;
-}
-
-#dagens_maltid {
-    text-decoration: underline;
-}
-
-#oppettider_kontakt {
-    text-decoration: underline;
-    font-size: 30px;
-    font-weight: bold;
-}
-
-#oppettider_och_kontakt_list {
-    display: block;
-    margin-top: 20px;
-}
-
-.info {
-    font-size: 18px;
-}
+  *{
+    margin : 0;
+    }
+    .wrapper {
+    width : 100vw;
+    height : 100vh;
+    display : grid;
+    grid-template-rows : 150px 200px 300px 550px 200px;
+    grid-template-areas : "he" "na" "ma" "se" "fo";
+    }
+    h1 {
+    font-style : italic;
+    font-size : 40px;
+    font-family : Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    .position_absolute {
+    position : absolute;
+    }
+    #logga {
+    width : 110px;
+    height : 110px;
+    top : 20px;
+    right : 50px;
+    }
+    header {
+    grid-area : he;
+    }
+    nav {
+    grid-area : na;
+    }
+    ul {
+    height : 100%;
+    display : flex;
+    list-style-type : none;
+    justify-content : space-evenly;
+    align-items : center;
+    }
+    .nav_links {
+    text-decoration : none;
+    font-size : 30px;
+    font-family : Georgia, 'Times New Roman', Times, serif;
+    color : black;
+    border : black solid 4px;
+    padding : 3px;
+    }
+    main {
+    grid-area : ma;
+    }
+    .valkommen_till {
+    font-size : 25px;
+    font-weight : bold;
+    font-family : Georgia, 'Times New Roman', Times, serif;
+    }
+    #valkommen_till_forsta_del {
+    top : 370px;
+    left : 20px;
+    }
+    #valkommen_till_andra_del {
+    top : 400px;
+    left : 20px;
+    }
+    #las_mer {
+    top : 402px;
+    left : 480px;
+    text-decoration : none;
+    font-size : 20px;
+    color : black;
+    font-family : Georgia, 'Times New Roman', Times, serif;
+    font-style : italic;
+    }
+    footer {
+    width : 100%;
+    height : 100%;
+    grid-area : fo;
+    display : flex;
+    justify-content : space-around;
+    }
+    article {
+    width : 200px;
+    height : 200px;
+    margin : 50px;
+    }
+    #a1 {
+    top : 530px;
+    left : 350px;
+    }
+    #a2 {
+    top : 780px;
+    left : 350px;
+    }
+    #a3 {
+    top : 530px;
+    left : 600px;
+    }
+    #a4 {
+    top : 780px;
+    left : 600px;
+    }
+    section {
+    width : 100%;
+    height : 100%;
+    grid-area : se;
+    }
+    .bilder_till_artiklarna {
+    width : 200px;
+    height : 200px;
+    }
+    .text_inside_image {
+    top : 2px;
+    right : 20px;
+    color : whitesmoke;
+    font-weight : bold;
+    font-size : 17px;
+    }
+    #text_inside_image_har_finns_vi {
+      top : 0.2px;
+      right: 5px;
+      color : whitesmoke;
+      font-weight : bold;
+      font-size : 17px;
+    }
+    #medarbetare {
+    top : 700px;
+    left : 50px;
+    text-decoration : underline;
+    }
+    #pasta_carbonara_text {
+    top : 20px;
+    right : 20px;
+    color : whitesmoke;
+    font-weight : bold;
+    font-size : 17px;
+    }
+    #dagens_maltid {
+    text-decoration : underline;
+    }
+    .oppettider_kontakt {
+    text-decoration : underline;
+    font-size : 30px;
+    font-weight : bold;
+    }
+    .oppettider_och_kontakt_list {
+    display : block;
+    margin-top : 20px;
+    }
+    .info {
+    font-size : 18px;
+    }
+    .background {
+    background-image : linear-gradient(rgb(255, 255, 255, 0.3), rgb(255, 255, 255, 0.3)), url("/img/bakgrund.jpg");
+    }
+    .till_toppen {
+    top : 1355px;
+    left : 25px;
+    }
+    .en_gas_och_var_meny_och_om_restaurangen {
+    top : 35px;
+    left : 50px;
+    text-decoration : underline;
+    }
+    .brodtext {
+    margin : 30px;
+    }
+    #brodtext_del_1 {
+    top : 300px;
+    }
+    #brodtext_del_2 {
+    top : 390px;
+    }
+    #brodtext_del_3 {
+    top : 500px;
+    }
+    #om_vara_medarbetare {
+    top : 725px;
+    }
+    #har_finns_vi {
+    top : 950px;
+    left : 50px;
+    text-decoration : underline;
+    }
+    #adresser {
+    top : 1000px;
+    }
+    .filler {
+    top : 1355px;
+    left : 25px;
+    margin : 50px;
+    opacity : 0;
+    }
+    .meny_rubriker {
+    text-decoration : underline;
+    font-size : 30px;
+    }
+    #meny_lista_mat {
+    font-size : 20px;
+    top : 450px;
+    left : 300px;
+    }
+    #meny_lista_drink {
+    font-size : 20px;
+    top : 450px;
+    right : 300px;
+    }
+    #meny_rubrik_mat {
+    top : -45px;
+    left : 5px;
+    }
+    #meny_rubrik_drink {
+    top : -45px;
+    right : -5px;
+    }
